@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+#main {
+    width: 100%;
+}
+#content {
+    height: 100%;
+}
+#siderbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icone-sidebar {
+    padding: 2.5em;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.icone-sidebar p{
+    margin: 0;
+}
+.icone-sidebar ion-icon{
+    cursor: pointer;
+    font-size: 2.2em;
+}
+#topbar {
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#logo {
+    height: 100%;
+    cursor: pointer;
+}
+#Ricerca {
+display: flex;
+font-size: 1.3em;
+
+}
+#Icone-topbar {
+display: flex;
+
+}
+.Icona-top ion-icon{
+    font-size: 2em;
+    padding: 0 0.5em;
+    cursor: pointer;
+}
+#microfono ion-icon {
+    font-size: 1.5em;
+    margin: 0 0.5em;
+    cursor: pointer;
+}
+#bottone-ricerca ion-icon {
+    padding: 0 1.2em;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#content {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    gap: 40px;
+    }
+.blocco {
+    padding: 0em;
+    margin-bottom: 40px;
+    }
+.blocco img {
+    width: 475px;
+    cursor: pointer;
+
+}
+.epi-l img{
+    width: 10%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.epi-l {
+display: flex;
+align-items: center;
+}
+.titolo {
+    margin-left: 15px;
+}
+.titolo h3 {
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.titolo p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
